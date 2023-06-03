@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+#localVideo,
+#remoteVideo {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Colors for Start and Stop buttons */
+#startButton {
+    background-color: #007bff;
+}
+
+#startButton:hover {
+    background-color: #0056b3;
+}
+
+#stopButton {
+    background-color: #dc3545;
+}
+
+#stopButton:hover {
+    background-color: #b52b38;
+}
